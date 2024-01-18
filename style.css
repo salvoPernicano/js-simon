@@ -29,9 +29,7 @@ body h1{
 }
 
 .container{
-    text-align: left;
-    border: 1px dashed red;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     padding: 2em;
 }
@@ -40,6 +38,11 @@ body h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.subContainer div{
+    border: 1px solid white;
+    padding: 1em;
+    box-shadow: -6px 10px 5px 0px rgba(0,0,0,0.75);
 }
 span {
     margin-block: 2em;
